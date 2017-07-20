@@ -30,7 +30,12 @@ Book.create(title:'Dune', author:'Frank Herbert', isbn:'0441172717')
 Book.create(title:'Hyperion (Hyperion Cantos)', author:'Dan Simmons', isbn:'0553283685')
 ```
 
-- Run Sinatra server with ```bundle exec ruby server.rb```
+- Clone this repository
+
+- Run repo code via Docker with 
+  1. ```docker build -t sinatra-mongo .```
+  2. ```docker run -d --name my-app-container -p 9292:9292 --link my-mongo:mongo sinatra-mongo```
+  3. Go to `localhost:9292/api/v1/books` (see more routes at server.rb)
 
     - Once started, it is possible to add/update/delete documents using cURL:
     
