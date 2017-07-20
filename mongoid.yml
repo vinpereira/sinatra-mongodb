@@ -3,4 +3,4 @@ development:
     default:
       database: booklist_dev
       hosts:
-        - localhost:27017
+        - mongo:27017
