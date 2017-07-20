@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/badges/github.com/vinpereira/sinatra-mongodb.svg)](https://gemnasium.com/github.com/vinpereira/sinatra-mongodb)
+
 # Ruby/Sinatra code to access MongoDB
 
 A simple Ruby code to access RethinkDB and perform CRUD actions. Also, the code has a 'real-time change feed' to get all changes in database.
