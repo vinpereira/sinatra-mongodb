@@ -39,4 +39,4 @@ Book.create(title:'Hyperion (Hyperion Cantos)', author:'Dan Simmons', isbn:'0553
 
     - Once started, it is possible to add/update/delete documents using cURL:
     
-    ``` curl -i -X POST -H "Content-Type: application/json" -d'{"title":"The Power Of Habit", "author":"Charles Duhigg", "isbn":"081298160X"}' http://localhost:4567/api/v1/books ```
+    ``` curl -i -X POST -H "Content-Type: application/json" -d'{"title":"The Power Of Habit", "author":"Charles Duhigg", "isbn":"081298160X"}' http://localhost:9292/api/v1/books ```
